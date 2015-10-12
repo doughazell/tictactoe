@@ -1,15 +1,18 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.beta1'
+#gem 'rails', '4.0.0.beta1'
+gem 'rails'
 
 gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 4.0.0.beta1'
-  gem 'coffee-rails', '~> 4.0.0.beta1'
+  #gem 'sass-rails',   '~> 4.0.0.beta1'
+  gem 'sass-rails'
+  #gem 'coffee-rails', '~> 4.0.0.beta1'
+  gem 'coffee-rails'
   gem 'haml'
   gem "twitter-bootstrap-rails"
   gem 'html2haml'
@@ -26,7 +29,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.0.1'
+#gem 'jbuilder', '~> 1.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -38,12 +41,12 @@ gem 'jbuilder', '~> 1.0.1'
 # gem 'capistrano', group: :development
 
 # To use debugger
-gem 'debugger'
+#gem 'debugger'
 
 gem 'ruby-fann'
 
 gem 'capybara', '>=2.2.0.beta'
 gem 'rspec-rails', '~> 3.0.0.rc1'
 
-gem 'statsample-optimization'
+#gem 'statsample-optimization'
 
